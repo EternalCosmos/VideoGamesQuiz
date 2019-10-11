@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
+      rel="stylesheet"
+    />
+    <link href="css/nes.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="greetings-wrap">
+        <div class="nes-container is-rounded is-dark is-centered greetings">
+          <p>welcome to the quiz on video games history!</p>
+        </div>
+        <a class="nes-btn is-primary start" href="#">Start!</a>
+      </div>
+      <div class="quiz-wrap">
+        <div class="nes-container is-centered question">
+          <i class="nes-mario"></i>
+          <section class="message -left">
+            <div class="nes-balloon from-left">
+              <p class="quiz-question"></p>
+            </div>
+          </section>
+        </div>
+        <div class="answer nes-container is-rounded is-dark">
+          <label>
+            <input type="radio" class="nes-radio is-dark" name="answer-dark" />
+            <span class="var-1 variant"></span>
+          </label>
+          <label>
+            <input type="radio" class="nes-radio is-dark" name="answer-dark" />
+            <span class="var-2 variant"></span>
+          </label>
+          <label>
+            <input type="radio" class="nes-radio is-dark" name="answer-dark" />
+            <span class="var-3 variant"></span>
+          </label>
+          <label>
+            <input type="radio" class="nes-radio is-dark" name="answer-dark" />
+            <span class="var-4 variant"></span>
+          </label>
+        </div>
+        <a class="nes-btn next-btn" href="#">Next</a>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c5adbdb6a0.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
